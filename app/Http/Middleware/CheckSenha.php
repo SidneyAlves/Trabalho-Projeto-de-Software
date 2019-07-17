@@ -21,6 +21,6 @@ class CheckSenha
                 return $next($request);
             }
         }
-        return redirect('senha')->with('error', 'Por favor, digite a senha corretamente');
+        return redirect('/')->with('error', 'Por favor, digite a senha corretamente');
     }
 }
